@@ -1,4 +1,3 @@
-"C:\Users\Patrick Quan\CLionProjects\CS210-Program-2-Prompt-Analysis\p2.exe"
 Finished at 221 B pid 2/18 process time was 209 processed request from 42.77.11.80 to 50.232.98.16
 Finished at 250 A pid 1/21 process time was 233 processed request from 131.20.22.156 to 87.114.174.4
 Finished at 379 E pid 5/37 process time was 362 processed request from 5.80.90.44 to 211.181.253.14
@@ -187,5 +186,3 @@ Finished at 9808 D pid 182/698 process time was 471 processed request from 226.2
 Finished at 9894 E pid 184/702 process time was 384 processed request from 77.200.147.237 to 91.146.156.221
 Finished at 9937 C pid 185/708 process time was 400 processed request from 48.228.202.2 to 204.138.177.9
 Finished at 9999 E pid 191/709 process time was 101 processed request from 216.192.58.44 to 105.230.133.83
-
-Process finished with exit code 0
