@@ -64,6 +64,7 @@ int main()
       if(webarray[currTime % NUM_SERVERS].isRequestDone(currTime))
       {
          // get request from the server
+         request r = webarray[currTime % NUM_SERVERS].getRequest();
 		 
 		 // print some stats
          cout << "Finished at " << currTime << " " << webarray[currTime % NUM_SERVERS].getName();
@@ -72,7 +73,7 @@ int main()
          cout << endl;
 		 
          // then give it a new request
-         webarray[currTime % NUM_SERVERS].addRequest(lb.getRequest(), currTime());
+         webarray[currTime % NUM_SERVERS].addRequest(lb.getRequest(), currTime);
       }
       // every random set of time, or get a new request
       if (rand() % 10 == 0) {
