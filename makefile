@@ -13,7 +13,7 @@ CXXOUT=-o p2
 CXXSEP=-c 
 
 # loadbalancer main compilation
-p2: p2.cpp webserver.o loadbalancer.o request.h
+p2: p3.cpp webserver.o loadbalancer.o request.h
 	$(CXX) $(CXXOUT) $(CXXFLAGS) $^
 
 # compile webserver.o
